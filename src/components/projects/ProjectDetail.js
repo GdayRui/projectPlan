@@ -1,6 +1,6 @@
 import React from "react";
 
-const ProjectDetail = props => {
+const ProjectDetail = (props) => {
   console.log("props", props);
   const id = props.match.params.id;
   return (
