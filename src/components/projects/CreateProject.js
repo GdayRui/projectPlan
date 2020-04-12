@@ -8,7 +8,7 @@ class CreateProject extends Component {
     content: "",
   };
   handleChange = (e) => {
-    console.log(e);
+    // console.log(e);
     this.setState({
       // html tag is an Element object
       [e.target.id]: e.target.value,
